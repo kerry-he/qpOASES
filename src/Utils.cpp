@@ -34,6 +34,8 @@
 
 #include <math.h>
 
+#define LINUX
+
 #if defined(__WIN32__) || defined(WIN32)
   #include <windows.h>
 #elif defined(LINUX) || defined(__LINUX__)
